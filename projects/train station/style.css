@@ -1,0 +1,121 @@
+
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    text-align: center;
+}
+
+#trainImg {
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    right: -1000px;
+    margin-top: 10%;
+    animation-name: anime1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+#train2Img {
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    left: -1000px;
+    margin-top: 10%;
+    animation-name: anime2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+}
+
+#cloudImg {
+    width: 20%;
+    max-width: 200px;
+    position: absolute;
+    top: 30px;
+    right: -200px;
+    animation-name: anime4;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+
+#cloudImg2 {
+    width: 20%;
+    max-width: 200px;
+    position: absolute;
+    top: 30px;
+    right: -200px;
+    animation-delay: 10s;
+    animation-name: anime4;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+
+#sunImg {
+    width: 20%;
+    max-width: 200px;
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    opacity: 0;
+    animation-name: anime3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#topDiv {
+    position: relative;
+    height: 40vh;
+    background-image: linear-gradient(skyblue 60%, white);
+}
+
+#stationImg {
+    width: 100%;
+    max-width: 1000px;
+}
+
+
+@keyframes anime3 {
+   
+    100% {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        opacity: 1;
+        rotate: 90deg;
+    }
+    
+}
+
+@keyframes anime1 {
+   
+    100% {
+        position: absolute;
+        right: 2000px;
+    }
+    
+}
+
+@keyframes anime4 {
+   
+    100% {
+        position: absolute;
+        right: 2000px;
+        top: 200px;
+    }
+    
+}
+
+@keyframes anime2 {
+   
+    100% {
+        position: absolute;
+        left: 2000px;
+    }
+    
+}

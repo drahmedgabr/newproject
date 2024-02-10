@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizat</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="bootstrap.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h3 style="text-align: left; padding: 10px;">Question: <span id="questionNumber">0</span>/10</h3>
+    <h3 style="text-align: left; padding: 10px;">Score: <span id="scoreText">0</span>/10</h3>
+
+    <br>
+
+    <div id="mainDiv">
+
+        <div id="questionDiv">
+        </div>
+
+        <div style="border-top: 5px solid; width: 100%;">
+
+        </div>
+        <div id="answersDiv">
+
+            <div class="row">
+                <div class="answerDiv">
+                    Answer 1
+                </div>
+                <div class="answerDiv">
+                    Answer 2
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="answerDiv">
+                    Answer 3
+                </div>
+                <div class="answerDiv">
+                    Answer 4
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <br><br>
+
+    <button onclick="checkAnswer()" id="nextButton" class="btn btn-lg btn-info col-8" style="display: none;">Next</button>
+
+    <br><br>
+
+    <div id="resultDiv" style="display: none;">
+        <h1 id="resultText">Passed</h1>
+        <br><br>
+        <h1><span id="resultGrade">0</span>/10</h1>
+        <br><br>
+        <button onclick="playAgain()" id="nextButton" class="btn btn-lg btn-info col-8">Play again</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

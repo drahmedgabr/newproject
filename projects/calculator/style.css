@@ -1,0 +1,44 @@
+#mainDiv {
+    max-width: 500px;
+    border: 3px;
+    border-style: solid;
+    border-color: darkblue;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#resultDiv {
+    background-color: aqua;
+    text-align: right;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: darkblue;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.buttonDiv {
+    border: 1px;
+    border-style: solid;
+    border-color: darkblue;
+    color: darkblue;
+    border-radius: 10px;
+    background-color: rgb(251, 247, 247);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    padding: 2% 4%;
+}
+
+.buttonDiv:hover {
+    background-color: rgb(181, 251, 251);
+    cursor: pointer;
+}
+
+.buttonDiv:active {
+    background-color: aqua;
+}

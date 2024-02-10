@@ -1,0 +1,57 @@
+/*
+
+    Nesting
+
+*/
+
+body {
+    background-color: #eee;
+}
+
+#mainDiv {
+    width: 90%;
+    max-width: 700px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#mainDiv h1 {
+    color: tomato;
+    font-size: 40px;
+}
+
+#mainDiv h1 span {
+    color: blueviolet;
+}
+
+#mainDiv label {
+    font-size: 25px;
+}
+
+#mainDiv input {
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#mainDiv button {
+    padding: 10px;
+    background-color: rgb(102, 102, 247);
+    color: #eee;
+    font-size: 25px;
+    border: 3px solid rgb(171, 171, 248);
+    border-radius: 10px;
+}
+
+#mainDiv button:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+#mainDiv h3 {
+    font-size: 40px;
+}

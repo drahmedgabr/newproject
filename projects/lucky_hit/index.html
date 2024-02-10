@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Hit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainDiv">
+        <div id="labelDiv">
+            You have remaining <span id="trialsNumber">3</span> trials
+        </div>
+        <div id="resultNumber" class="resultDiv">
+            0
+        </div>
+        <div id="inputDiv">
+                <div class="row">
+                    <div class="numDiv" onclick="selectNumber(1)">1</div>
+                    <div class="numDiv" onclick="selectNumber(2)">2</div>
+                    <div class="numDiv" onclick="selectNumber(3)">3</div>
+                </div>
+                <div class="row">
+                    <div class="numDiv" onclick="selectNumber(4)">4</div>
+                    <div class="numDiv" onclick="selectNumber(5)">5</div>
+                    <div class="numDiv" onclick="selectNumber(6)">6</div>
+                </div>
+                <div class="row">
+                    <div class="numDiv" onclick="selectNumber(7)">7</div>
+                    <div class="numDiv" onclick="selectNumber(8)">8</div>
+                    <div class="numDiv" onclick="selectNumber(9)">9</div>
+                </div>
+        </div>
+        <div id="resultDiv" class="resultDiv" style="display: none;">
+            <img id="successImg" src="images/success.jpg" alt="success" style="display: none;">
+            <img id="failedImg" src="images/failed.webp" alt="success" style="display: none;">
+            <p id="resultText">You choosed number</p>
+        </div>
+        <br><br>
+        <button onclick="tryAgain()" id="tryAgainBtn">Try Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
